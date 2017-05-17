@@ -23,6 +23,7 @@ public class DiGui {
 		Method[] methods = getAllMethod(ArrayList.class);
 		for (Method method : methods) {
 			System.out.println(method.getName());
+			System.out.println("test github update");
 		}
 	}
 	
