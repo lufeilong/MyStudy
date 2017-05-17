@@ -24,6 +24,7 @@ public class DiGui {
 		for (Method method : methods) {
 			System.out.println(method.getName());
 			System.out.println("test github update");
+			System.out.println("test git update in eclipse");
 		}
 	}
 	
