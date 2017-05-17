@@ -46,7 +46,7 @@ public class EncryUtil {
 	 * @throws Exception
 	 */
 	public static boolean checkDecryptAndSign(String data, String encrypt_key, String yibaoPublickKey,
-			String merchantPrivateKey) throws Exception {
+			String merchantPrivateKey) throws Exception { 
 
 		/** 1.使用YBprivatekey解开aesEncrypt。 */
 		String AESKey = "";

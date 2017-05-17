@@ -61,14 +61,14 @@ public class Main {
 	}
 
 	public static void client(TreeMap<String, Object> params) throws Exception {
-		// 生成RSA签名
+		// 生成RSA签名   -- 这个签名是根据 value 拼接进行 加密得到的
 		String sign = EncryUtil.handleRSA(params, clientPrivateKey);
 		params.put("sign", sign);
 
 		String info = JSON.toJSONString(params);
 		// 随机生成AES密钥
 		String aesKey = RandomUtil.getRandom(16);
-		// AES加密数据
+		// AES加密数据  --对称加密
 		String data = AES.encryptToBase64(info, aesKey);
 
 		// 使用RSA算法将商户自己随机生成的AESkey加密
