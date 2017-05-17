@@ -13,6 +13,8 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/fastjson-1.2.31.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-lang3-3.3.2.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mail-1.4.7.jar" sourcepath="D:/Repor/maven/javax/mail/mail/1.4.7/mail-1.4.7-sources.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activation-1.1.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="output" path="build/classes"/>
